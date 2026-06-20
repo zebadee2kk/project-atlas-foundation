@@ -14,9 +14,9 @@
 - [x] Add PR template
 - [x] Add seed backlog
 - [x] Add lifecycle labels for proposal statuses
-- [ ] Enable GitHub Discussions
-- [ ] Create GitHub Project board
-- [ ] Add initial proposal issues from seed backlog
+- [x] Enable GitHub Discussions
+- [ ] Create GitHub Project board (needs owner UI or `project` scope token)
+- [x] Add initial proposal issues from seed backlog
 
 ## Website setup
 
