@@ -74,7 +74,15 @@ See [CHARTER.md](CHARTER.md) for the full charter.
 
 ## Current status
 
-Early foundation setup. This repo is intentionally simple and low-cost. The first objective is to validate whether people want to coordinate around a shared public backlog before building custom platform software.
+Foundation repo is set up with charter, governance, contribution guidelines, code of conduct, proposal/task templates, issue templates, launch checklist, and lifecycle labels created. Landing page source exists in `website/index.html` and is copied to repo root for later GitHub Pages enablement.
+
+## Owner action required
+
+The following setup still needs an account with Maintainer/Owner rights on this repository:
+
+- Enable GitHub Discussions.
+- Enable GitHub Pages from the `main` branch root.
+- Create the GitHub Projects board using `docs/project-board-plan.md` columns and automations.
 
 ## Proposer quick-start (3 steps)
 
