@@ -80,7 +80,11 @@ Early foundation setup. This repo is intentionally simple and low-cost. The firs
 
 1. Read docs/proposer-quickstart.md.
 2. Score your idea using docs/impact-scoring.md and docs/scoring-example.md.
-3. Open a proposal issue from .github/ISSUE_TEMPLATE/proposal.yml.
+3. Open an issue using one of the built-in templates:
+  - [Proposal template](.github/ISSUE_TEMPLATE/proposal.yml)
+  - [Task template](.github/ISSUE_TEMPLATE/task.yml)
+  - [Bug report](.github/ISSUE_TEMPLATE/bug_report.yml)
+  - [Feature request](.github/ISSUE_TEMPLATE/feature_request.yml)
 
 For infrastructure setup, see docs/discussions-setup.md and docs/project-board-plan.md.
 
