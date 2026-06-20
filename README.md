@@ -59,10 +59,6 @@ See [CHARTER.md](CHARTER.md) for the full charter.
 - [backlog/seed-ideas.md](backlog/seed-ideas.md) - initial seed backlog
 - [website/index.html](website/index.html) - lightweight landing page starter
 
-## Current status
-
-Early foundation setup. This repo is intentionally simple and low-cost. The first objective is to validate whether people want to coordinate around a shared public backlog before building custom platform software.
-
 ## Immediate next steps
 
 1. Finalise the charter.
@@ -71,6 +67,18 @@ Early foundation setup. This repo is intentionally simple and low-cost. The firs
 4. Recruit founding contributors.
 5. Choose a permanent name after proper availability checks.
 6. Launch a simple public landing page.
+
+## Current status
+
+Early foundation setup. This repo is intentionally simple and low-cost. The first objective is to validate whether people want to coordinate around a shared public backlog before building custom platform software.
+
+## Proposer quick-start (3 steps)
+
+1. Read [proposer-quickstart.md](docs/proposer-quickstart.md).
+2. Score your idea using [impact-scoring.md](docs/impact-scoring.md) and [scoring-example.md](docs/scoring-example.md).
+3. Open a proposal issue from [.github/ISSUE_TEMPLATE/proposal.yml](.github/ISSUE_TEMPLATE/proposal.yml).
+
+For infrastructure setup, see [docs/discussions-setup.md](docs/discussions-setup.md) and [docs/project-board-plan.md](docs/project-board-plan.md).
 
 ## Cost philosophy
 
