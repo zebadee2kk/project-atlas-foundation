@@ -20,7 +20,7 @@ Project Atlas exists to reduce duplication and help builders coordinate around t
 
 Project Atlas is not just a forum. It is intended to become a structured, open process for moving from problem to outcome:
 
-```text
+```
 Problem -> Proposal -> Community review -> Project -> Contributors -> Outcome
 ```
 
@@ -40,24 +40,28 @@ See [CHARTER.md](CHARTER.md) for the full charter.
 
 ## Repository map
 
-- [CHARTER.md](CHARTER.md) - mission, principles, and non-negotiables
-- [GOVERNANCE.md](GOVERNANCE.md) - initial governance model
-- [CONTRIBUTING.md](CONTRIBUTING.md) - how to contribute
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - community standards
-- [docs/vision.md](docs/vision.md) - long-term vision
-- [docs/operating-model.md](docs/operating-model.md) - how the community works
-- [docs/proposal-lifecycle.md](docs/proposal-lifecycle.md) - how ideas become projects
-- [docs/project-lifecycle.md](docs/project-lifecycle.md) - how projects are run
-- [docs/impact-scoring.md](docs/impact-scoring.md) - scoring and prioritisation model
-- [docs/proposer-quickstart.md](docs/proposer-quickstart.md) - 1-page guide for submitting proposals
-- [docs/scoring-example.md](docs/scoring-example.md) - walkthrough of scoring a sample proposal
-- [docs/discussions-setup.md](docs/discussions-setup.md) - setup plan for proposal debate and voting
-- [docs/project-board-plan.md](docs/project-board-plan.md) - Project board lifecycle plan for proposals
-- [docs/ai-assistant-policy.md](docs/ai-assistant-policy.md) - rules for human and AI collaboration
-- [docs/new-project-checklist.md](docs/new-project-checklist.md) - checklist after a proposal is approved
-- [docs/agentic-support-model.md](docs/agentic-support-model.md) - future AI agent support model
-- [backlog/seed-ideas.md](backlog/seed-ideas.md) - initial seed backlog
-- [website/index.html](website/index.html) - lightweight landing page starter
+| Document | Description |
+|----------|-------------|
+| [CHARTER.md](CHARTER.md) | mission, principles, and non-negotiables |
+| [GOVERNANCE.md](GOVERNANCE.md) | initial governance model |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | how to contribute |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | community standards |
+| [docs/vision.md](docs/vision.md) | long-term vision |
+| [docs/operating-model.md](docs/operating-model.md) | how the community works |
+| [docs/proposal-lifecycle.md](docs/proposal-lifecycle.md) | how ideas become projects |
+| [docs/project-lifecycle.md](docs/project-lifecycle.md) | how projects are run |
+| [docs/impact-scoring.md](docs/impact-scoring.md) | scoring and prioritisation model |
+| [docs/proposer-quickstart.md](docs/proposer-quickstart.md) | 1-page proposer quickstart |
+| [docs/scoring-example.md](docs/scoring-example.md) | walkthrough of scoring a sample proposal |
+| [docs/discussions-setup.md](docs/discussions-setup.md) | setup plan for proposal debate and voting |
+| [docs/project-board-plan.md](docs/project-board-plan.md) | Project board lifecycle plan for proposals |
+| [docs/ai-assistant-policy.md](docs/ai-assistant-policy.md) | rules for human and AI collaboration |
+| [docs/new-project-checklist.md](docs/new-project-checklist.md) | checklist after a proposal is approved |
+| [docs/agentic-support-model.md](docs/agentic-support-model.md) | future AI agent support model |
+| [docs/launch-checklist.md](docs/launch-checklist.md) | launch readiness checklist |
+| [docs/naming-process.md](docs/naming-process.md) | naming process |
+| [backlog/seed-ideas.md](backlog/seed-ideas.md) | initial seed backlog |
+| [website/index.html](website/index.html) | lightweight landing page starter |
 
 ## Immediate next steps
 
@@ -74,11 +78,11 @@ Early foundation setup. This repo is intentionally simple and low-cost. The firs
 
 ## Proposer quick-start (3 steps)
 
-1. Read [proposer-quickstart.md](docs/proposer-quickstart.md).
-2. Score your idea using [impact-scoring.md](docs/impact-scoring.md) and [scoring-example.md](docs/scoring-example.md).
-3. Open a proposal issue from [.github/ISSUE_TEMPLATE/proposal.yml](.github/ISSUE_TEMPLATE/proposal.yml).
+1. Read docs/proposer-quickstart.md.
+2. Score your idea using docs/impact-scoring.md and docs/scoring-example.md.
+3. Open a proposal issue from .github/ISSUE_TEMPLATE/proposal.yml.
 
-For infrastructure setup, see [docs/discussions-setup.md](docs/discussions-setup.md) and [docs/project-board-plan.md](docs/project-board-plan.md).
+For infrastructure setup, see docs/discussions-setup.md and docs/project-board-plan.md.
 
 ## Cost philosophy
 
