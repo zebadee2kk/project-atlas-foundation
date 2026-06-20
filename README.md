@@ -49,6 +49,12 @@ See [CHARTER.md](CHARTER.md) for the full charter.
 - [docs/proposal-lifecycle.md](docs/proposal-lifecycle.md) - how ideas become projects
 - [docs/project-lifecycle.md](docs/project-lifecycle.md) - how projects are run
 - [docs/impact-scoring.md](docs/impact-scoring.md) - scoring and prioritisation model
+- [docs/proposer-quickstart.md](docs/proposer-quickstart.md) - 1-page guide for submitting proposals
+- [docs/scoring-example.md](docs/scoring-example.md) - walkthrough of scoring a sample proposal
+- [docs/discussions-setup.md](docs/discussions-setup.md) - setup plan for proposal debate and voting
+- [docs/project-board-plan.md](docs/project-board-plan.md) - Project board lifecycle plan for proposals
+- [docs/ai-assistant-policy.md](docs/ai-assistant-policy.md) - rules for human and AI collaboration
+- [docs/new-project-checklist.md](docs/new-project-checklist.md) - checklist after a proposal is approved
 - [docs/agentic-support-model.md](docs/agentic-support-model.md) - future AI agent support model
 - [backlog/seed-ideas.md](backlog/seed-ideas.md) - initial seed backlog
 - [website/index.html](website/index.html) - lightweight landing page starter
