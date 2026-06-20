@@ -1,0 +1,81 @@
+name: Proposal
+description: Propose a problem or project for Project Atlas
+title: "Proposal: "
+labels: ["proposal", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to propose a problem, solution, or public-good project.
+  - type: input
+    id: summary
+    attributes:
+      label: One-line summary
+      description: Describe the proposal in one sentence.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: beneficiaries
+    attributes:
+      label: Who benefits?
+      description: Who would this help and how?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What should be built, researched, specified, or coordinated?
+    validations:
+      required: true
+  - type: textarea
+    id: existing
+    attributes:
+      label: Existing solutions
+      description: What already exists? Include links if known.
+  - type: textarea
+    id: components
+    attributes:
+      label: Components needed
+      description: List likely components, skills, integrations, datasets, or documents required.
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and safety concerns
+      description: Include privacy, security, abuse, legal, or maintenance concerns.
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Estimated human benefit
+      options:
+        - Unknown
+        - Low
+        - Medium
+        - High
+        - Very high
+    validations:
+      required: true
+  - type: dropdown
+    id: feasibility
+    attributes:
+      label: Estimated feasibility for an open community
+      options:
+        - Unknown
+        - Low
+        - Medium
+        - High
+        - Very high
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: First useful tasks
+      description: What could contributors do first?
