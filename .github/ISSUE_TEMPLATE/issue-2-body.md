@@ -10,8 +10,8 @@ tracking.
 ## Work required
 
 1. At [zebadee2kk/project-atlas-foundation](https://github.com/zebadee2kk/project-atlas-foundation), create a new **Projects** board linked to the repository.
-2. Create the nine columns in the exact order and with the exact names
-   defined in [`docs/project-board-plan.md`](docs/project-board-plan.md):
+2. Create the nine columns in the exact order and with the exact names defined in [`docs/project-board-plan.md`](../../docs/project-board-plan.md):
+
 
    1. Inbox
    2. Shaping

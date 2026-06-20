@@ -16,8 +16,7 @@ intended tool.
 
 ## Reference
 
-Full step-by-step setup and category mapping (announcements, ideas,
-general Q&A, proposals) are defined in [`docs/discussions-setup.md`](docs/discussions-setup.md).
+Full step-by-step setup and category mapping (announcements, ideas, general Q&A, proposals) are defined in [`docs/discussions-setup.md`](../../docs/discussions-setup.md).
 
 ## Definition of done
 
