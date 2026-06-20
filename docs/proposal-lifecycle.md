@@ -1,57 +1,59 @@
 # Proposal Lifecycle
 
-A proposal is the bridge between a problem and an active project.
+A proposal is the bridge between a problem and an active project. This lifecycle aligns with the GitHub-native label set used on the project board.
 
-## Statuses
+## Status flow
+
+```text
+Draft -> needs-review -> needs-shaping -> accepted -> in-progress -+-> needs-verification -> delivered
+                                                                      |
+                                                                      +-> blocked -> delivered or wont-do
+```
 
 ### 1. Draft
 
-The idea has been submitted but needs clarification.
+Use the Proposal template in `.github/ISSUE_TEMPLATE/proposal.yml`. Keep the initial issue concise; add detail in linked docs or pinned comments as needed.
 
-### 2. Researching
+### 2. needs-review
 
-The community is gathering context, existing solutions, risks, and constraints.
+The proposal has been opened and is awaiting initial triage. A maintainer or reviewer confirms scope and assigns `needs-shaping` when the proposal needs more research, scope definition, or risk analysis before full review.
 
-### 3. Scoring
+### 3. needs-shaping
 
-The proposal is being assessed for impact, feasibility, urgency, reusability, and contributor interest.
+Active research: collect existing solutions, constraints, risks, likely maintainers, and any safety concerns. Expected artefacts: short scoping note, maintainer volunteer, safety review snapshot.
 
-### 4. Candidate Project
+### 4. accepted
 
-The proposal is clear enough to become a project, pending maintainer/community review.
+Score and safety review are complete (see `docs/impact-scoring.md` and `docs/scoring-example.md`). A maintainer promotes the proposal and assigns a project lead.
 
-### 5. Active Project
+### 5. in-progress
 
-The proposal has been promoted and now has a project space, roadmap, maintainers, and tasks.
+Delivery has started. The assigned lead breaks the proposal into tasks, opens implementation work, and keeps the issue updated.
 
-### 6. Archived
+### 6. blocked
 
-The proposal is no longer active. Reasons may include duplication, insufficient feasibility, safety concerns, lack of contributors, or better alternatives.
+Active work is paused due to a missing dependency, skill, decision, or external requirement. Unblock and resume `in-progress` when the blocker is cleared.
 
-## Proposal requirements
+### 7. needs-verification
 
-A mature proposal should include:
+Implementation or document delivery is complete. The lead requests final review, testing, or community sign-off.
 
-- Clear problem statement
-- Affected groups
-- Proposed solution
-- Existing solutions
-- Why existing solutions are insufficient
-- Impact estimate
-- Feasibility estimate
-- Safety and abuse considerations
-- Skills needed
-- Initial tasks
-- Definition of done
+### 8. delivered
 
-## Promotion threshold
+The proposal has been accepted, reviewed, and moved to Done on the project board.
 
-During the founding phase, a proposal may be promoted when it has:
+### 9. wont-do / Archived
 
-- Clear written scope
-- At least one maintainer or project lead
-- Evidence of contributor interest
-- No unresolved major safety concern
-- A basic delivery plan
+The proposal is declined, duplicated, out of scope, or no longer relevant. Close the issue with a brief rationale so future proposers can learn from it.
 
-Later, this should become more formal and community governed.
+## Promotion check
+
+Before promoting from `accepted` to `in-progress`, confirm:
+- Problem, beneficiaries, and proposed outcome are each stated plainly.
+- No unresolved high-severity safety or legal concern.
+- At least one maintainer or project lead has accepted ownership.
+- At least one first task is listed.
+
+## Escalation
+
+If after 14 days a proposal has no review comment, add a reminder as a pinned comment during weekly triage.

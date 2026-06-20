@@ -9,10 +9,13 @@
 - [x] Add code of conduct
 - [x] Add proposal template
 - [x] Add task template
+- [x] Add bug report template
+- [x] Add feature request template
+- [x] Add PR template
 - [x] Add seed backlog
+- [x] Add lifecycle labels for proposal statuses
 - [ ] Enable GitHub Discussions
 - [ ] Create GitHub Project board
-- [ ] Add labels for proposal statuses
 - [ ] Add initial proposal issues from seed backlog
 
 ## Website setup

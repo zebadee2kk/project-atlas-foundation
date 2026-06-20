@@ -12,7 +12,7 @@ Anyone who has used or built something public-good related and noticed a gap, du
 
 ## Required inputs
 
-The proposal issue template (`proposal.yml`) asks for the following fields. Treat every field as required unless you genuinely do not yet have an answer; in that case write `Unknown` so reviewers know what is still open.
+The proposal issue template (`.github/ISSUE_TEMPLATE/proposal.yml`) asks for the following fields. Treat every field as required unless you genuinely do not yet have an answer; in that case write `Unknown` so reviewers know what is still open.
 
 - **One-line summary** — a single sentence naming the proposal.
 - **Problem** — what is the gap or harm this would address?
@@ -52,31 +52,10 @@ Read `docs/impact-scoring.md` for the draft formula and cautions. Scores are 0�
 - [ ] At least one first task is listed so contributors can start immediately.
 - [ ] You are willing to participate in discussion, even if you are not leading delivery.
 
-## Example template
-
-```yaml
-name: Proposal
-title: "Proposal: Short, specific name here"
-problem: |
-  One paragraph stating the problem and who is affected.
-solution: |
-  One paragraph on what would be built or coordinated.
-benefits: |
-  Who benefits and why this matters now.
-existing: |
-  Link or note any current equivalents; otherwise state none found.
-safety: |
-  Any privacy, legal, or abuse considerations surfaced so far.
-tasks: |
-  - Task a first contributor could start today
-```
-
-Submit the filled template by opening an issue with the Proposal form, or by copying the template into a new discussion if issue templates are not yet available.
-
 ## Where it goes next
 
-1. **Community Discussion** — once GitHub Discussions is enabled, early debate moves there so proposals can be refined before formal review.
-2. **Issue queue** — the proposal issue becomes the canonical source of truth with status updated through: Draft → Researching → Scoring → Candidate Project → Active Project (see `docs/proposal-lifecycle.md`).
+1. **Issue queue** — the proposal issue becomes the canonical source of truth with status updated through: Draft -> Researching -> Scoring -> Candidate Project -> Active Project (see `docs/proposal-lifecycle.md`).
+2. **Community Discussion** — once GitHub Discussions is enabled, debate moves there so proposals can be refined before formal review.
 3. **Project board** — once GitHub Projects is enabled, promoted proposals migrate to the board with tasks, maintainers, and a roadmap.
 
 Until Discussions and Projects are enabled, use the issue thread itself for discussion. Keep the issue title updated if the scope changes materially.

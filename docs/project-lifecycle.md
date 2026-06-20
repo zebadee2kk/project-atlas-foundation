@@ -4,46 +4,39 @@ A project is an approved effort with a defined scope, public tasks, and at least
 
 ## Stages
 
+```text
+Setup -> Research -> Design -> Prototype -> MVP -> Sustain -+-> Completed
+                                                           |
+                                                           +-> Merged / Paused / Archived
+```
+
 ### 1. Setup
 
-Create the project area, README, maintainers list, backlog, and initial issues.
+Create a public project area with a README, initial backlog, maintainers list, and basic contribution rules.
 
 ### 2. Research
 
-Validate the problem, existing solutions, users, risks, and possible implementation paths.
+Validate the problem, users, risks, existing solutions, and constraints. Capture findings in `docs/research.md` or linked notes.
 
 ### 3. Design
 
-Define the target architecture, delivery approach, governance constraints, and success criteria.
+Document the target architecture, interfaces, governance constraints, and success criteria in `docs/architecture.md`.
 
 ### 4. Prototype
 
-Build a small working demonstration or proof of concept.
+Build a small working demonstration. The prototype should answer the single riskiest technical question.
 
 ### 5. MVP
 
-Deliver the minimum useful version that real users can try.
+Deliver the minimum useful version real users can try. Define what “useful” means before building.
 
 ### 6. Sustain
 
-Document maintenance needs, support model, ownership, security updates, and long-term stewardship.
+Document maintenance needs, support model, ownership, security updates, and long-term stewardship. Add a `MAINTAINERS.md` if one does not already exist.
 
-### 7. Complete or archive
+## Completion criteria
 
-A project may be completed, merged into another project, paused, or archived.
-
-## Required files for active projects
-
-Each active project should eventually have:
-
-- `README.md`
-- `ROADMAP.md`
-- `CONTRIBUTING.md`
-- `MAINTAINERS.md`
-- `SECURITY.md`
-- `docs/architecture.md`
-- `docs/research.md`
-- `docs/decision-log/`
+A project is considered complete, merged, paused, or archived when the accountable maintainer moves the issue and updates the README with the final state and outcome.
 
 ## Project roles
 
@@ -54,14 +47,14 @@ Each active project should eventually have:
 - Documentation contributor
 - Reviewer
 - User tester
-- AI assistant or agent, where appropriate
+- AI assistant or agent, where appropriate and disclosed
 
-## Definition of done
+## Required files for active projects
 
-Each project must define its own success criteria. Examples:
+Each active project should have at least:
 
-- A reusable open-source tool is published.
-- A specification is complete and implementable.
-- A prototype is deployed.
-- A research report is published.
-- A community template is ready for reuse.
+- `README.md`
+- `ROADMAP.md`
+- `CONTRIBUTING.md`
+- `MAINTAINERS.md`
+- `SECURITY.md`
