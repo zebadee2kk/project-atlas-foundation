@@ -4,26 +4,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project Atlas Foundation</title>
-  <meta name="description" content="An open coordination layer for collective progress.">
+  <meta name="description" content="An open coordination layer for collective progress. Humans and AI agents working together on public-good projects.">
   <style>
     body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; line-height: 1.6; color: #111; background: #fafafa; }
     main { max-width: 920px; margin: 0 auto; padding: 64px 24px; }
     .hero { padding: 72px 0; }
     h1 { font-size: clamp(2.4rem, 6vw, 5rem); line-height: 1; margin: 0 0 24px; letter-spacing: -0.06em; }
     h2 { margin-top: 48px; font-size: 1.8rem; }
+    h3 { margin-top: 32px; font-size: 1.3rem; }
     p.lead { font-size: 1.35rem; max-width: 760px; }
     .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 24px; }
     .card { border: 1px solid #ddd; border-radius: 18px; padding: 20px; background: white; }
-    .cta { display: inline-block; margin-top: 24px; padding: 12px 18px; border-radius: 999px; background: #111; color: white; text-decoration: none; }
+    .card strong { display: block; margin-bottom: 4px; }
+    .cta-group { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+    .cta { display: inline-block; padding: 12px 18px; border-radius: 999px; background: #111; color: white; text-decoration: none; }
+    .cta-secondary { display: inline-block; padding: 12px 18px; border-radius: 999px; background: white; color: #111; border: 1px solid #ddd; text-decoration: none; }
+    .status { display: inline-block; padding: 4px 12px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; }
+    .status-active { background: #d4edda; color: #155724; }
+    .status-beta { background: #fff3cd; color: #856404; }
     footer { margin-top: 72px; color: #555; font-size: 0.95rem; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    .badge { display: inline-block; background: #e8f5e9; color: #2e7d32; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; margin-left: 8px; }
   </style>
 </head>
 <body>
   <main>
     <section class="hero">
       <h1>Coordinate what matters.</h1>
-      <p class="lead">Project Atlas Foundation is a working codename for an open community exploring how humans and AI agents can identify, prioritise, and build useful public-good projects together.</p>
-      <a class="cta" href="https://github.com/zebadee2kk/project-atlas-foundation">View the GitHub repo</a>
+      <p class="lead">Project Atlas Foundation is an open community exploring how humans and AI agents can identify, prioritise, and build useful public-good projects together.</p>
+      <div class="cta-group">
+        <a class="cta" href="https://github.com/zebadee2kk/project-atlas-foundation">View the GitHub repo</a>
+        <a class="cta-secondary" href="https://github.com/zebadee2kk/project-atlas-foundation/issues">Browse proposals</a>
+        <a class="cta-secondary" href="https://github.com/zebadee2kk/project-atlas-foundation/blob/main/CONTRIBUTING.md">Contribute</a>
+      </div>
     </section>
 
     <section>
@@ -44,6 +58,16 @@
     </section>
 
     <section>
+      <h2>Current status <span class="status status-beta">Beta</span></h2>
+      <p>The foundation repository is set up with governance, contribution guides, and initial proposals. We are now:</p>
+      <ul>
+        <li>Seeking founding contributors and project ideas</li>
+        <li>Building out agent-assisted research and safety review workflows</li>
+        <li>Preparing for first public launch</li>
+      </ul>
+    </section>
+
+    <section>
       <h2>Principles</h2>
       <ul>
         <li>Open by default</li>
@@ -55,8 +79,25 @@
       </ul>
     </section>
 
+    <section>
+      <h2>Get involved</h2>
+      <h3>For contributors</h3>
+      <ul>
+        <li>Read the <a href="https://github.com/zebadee2kk/project-atlas-foundation/blob/main/CONTRIBUTING.md">contribution guide</a></li>
+        <li>Browse <a href="https://github.com/zebadee2kk/project-atlas-foundation/issues?q=is%3Aissue+is%3Aopen+label%3Aproposal">open proposals</a></li>
+        <li>Submit your own proposal using the <a href="https://github.com/zebadee2kk/project-atlas-foundation/issues/new?template=proposal.yml">proposal template</a></li>
+      </ul>
+      <h3>For AI agents</h3>
+      <ul>
+        <li>Read the <a href="https://github.com/zebadee2kk/project-atlas-foundation/blob/main/docs/ai-assistant-policy.md">AI assistant policy</a></li>
+        <li>Learn about the <a href="https://github.com/zebadee2kk/project-atlas-foundation/blob/main/docs/agentic-support-model.md">agentic support model</a></li>
+        <li>Agents assist, not substitute — humans retain final authority</li>
+      </ul>
+    </section>
+
     <footer>
-      <p>Project Atlas is a temporary codename. Final naming should happen only after domain, GitHub, community, and trademark checks.</p>
+      <p>Project Atlas is a temporary codename. Final naming will happen only after domain, GitHub, community, and trademark checks.</p>
+      <p>Documentation is released under CC BY-SA 4.0. Code uses MIT or Apache-2.0.</p>
     </footer>
   </main>
 </body>

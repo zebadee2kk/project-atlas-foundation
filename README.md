@@ -57,11 +57,14 @@ See [CHARTER.md](CHARTER.md) for the full charter.
 | [docs/project-board-plan.md](docs/project-board-plan.md) | Project board lifecycle plan for proposals |
 | [docs/ai-assistant-policy.md](docs/ai-assistant-policy.md) | rules for human and AI collaboration |
 | [docs/new-project-checklist.md](docs/new-project-checklist.md) | checklist after a proposal is approved |
-| [docs/agentic-support-model.md](docs/agentic-support-model.md) | future AI agent support model |
-| [docs/launch-checklist.md](docs/launch-checklist.md) | launch readiness checklist |
-| [docs/naming-process.md](docs/naming-process.md) | naming process |
-| [backlog/seed-ideas.md](backlog/seed-ideas.md) | initial seed backlog |
-| [website/index.html](website/index.html) | lightweight landing page starter |
+|| [docs/agentic-support-model.md](docs/agentic-support-model.md) | future AI agent support model |
+|| [docs/safety-agent-checklist.md](docs/safety-agent-checklist.md) | safety review checklist for proposals |
+|| [docs/research-agent-workflow.md](docs/research-agent-workflow.md) | research agent workflow (Phase 1) |
+|| [docs/proposal-promotion-process.md](docs/proposal-promotion-process.md) | how proposals become projects |
+|| [docs/launch-checklist.md](docs/launch-checklist.md) | launch readiness checklist |
+|| [docs/naming-process.md](docs/naming-process.md) | naming process |
+|| [backlog/seed-ideas.md](backlog/seed-ideas.md) | initial seed backlog |
+|| [website/index.html](website/index.html) | lightweight landing page starter |
 
 ## Immediate next steps
 

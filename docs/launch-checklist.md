@@ -15,8 +15,15 @@
 - [x] Add seed backlog
 - [x] Add lifecycle labels for proposal statuses
 - [x] Enable GitHub Discussions
-- [ ] Create GitHub Project board (needs owner UI or `project` scope token)
 - [x] Add initial proposal issues from seed backlog
+- [x] Add safety agent checklist
+- [x] Add research agent workflow
+- [x] Add proposal promotion process
+- [x] Add CI workflow (markdown-lint + link-check)
+- [x] Add CODEOWNERS
+- [x] Update landing page with status and CTAs
+- [ ] Create GitHub Project board (needs owner UI or `project` scope token)
+- [ ] Enable GitHub Pages (needs owner UI)
 
 ## Website setup
 

@@ -1,0 +1,28 @@
+name: Docs CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: |
+            **/*.md
+            !.github/ISSUE_TEMPLATE/**
+            !node_modules/**
+
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverbose/lychee-action@v2
+        with:
+          args: --base . --exclude-path .github/ISSUE_TEMPLATE -- README.md CONTRIBUTING.md CHARTER.md GOVERNANCE.md CODE_OF_CONDUCT.md SECURITY.md LICENCE.md docs/ website/
+          fail: false

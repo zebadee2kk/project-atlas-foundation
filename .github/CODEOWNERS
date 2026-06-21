@@ -1,0 +1,24 @@
+# CODEOWNERS for Project Atlas Foundation
+# These owners are automatically requested for review when PRs touch their areas.
+
+# Global fallback
+* @zebadee2kk
+
+# Governance documents require maintainer review
+/CHARTER.md @zebadee2kk
+/GOVERNANCE.md @zebadee2kk
+/CODE_OF_CONDUCT.md @zebadee2kk
+/CONTRIBUTING.md @zebadee2kk
+/SECURITY.md @zebadee2kk
+
+# Agent and AI policy
+/docs/ai-assistant-policy.md @zebadee2kk
+/docs/agentic-support-model.md @zebadee2kk
+/docs/safety-agent-checklist.md @zebadee2kk
+/docs/research-agent-workflow.md @zebadee2kk
+
+# Lifecycle and process
+/docs/proposal-lifecycle.md @zebadee2kk
+/docs/project-lifecycle.md @zebadee2kk
+/docs/proposal-promotion-process.md @zebadee2kk
+/docs/impact-scoring.md @zebadee2kk
