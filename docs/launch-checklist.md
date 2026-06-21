@@ -22,7 +22,11 @@
 - [x] Add CI workflow (markdown-lint + link-check)
 - [x] Add CODEOWNERS
 - [x] Update landing page with status and CTAs
-- [ ] Create GitHub Project board (needs owner UI or `project` scope token)
+- [x] Add impact scoring model
+- [x] Add project board plan
+- [x] Score all 10 seed proposals (#3-#12)
+- [x] Create shaping documents for top 3 proposals
+- [ ] Create GitHub Project board (BLOCKED: needs `project` scope on token or owner UI action — see issue #32)
 - [ ] Enable GitHub Pages (needs owner UI)
 
 ## Website setup
@@ -31,7 +35,7 @@
 - [ ] Decide GitHub Pages or Cloudflare Pages
 - [ ] Configure deployment
 - [ ] Add permanent domain after naming decision
-- [ ] Add clear call to action
+- [x] Add clear call to action
 
 ## Community setup
 
@@ -39,12 +43,12 @@
 - [ ] Define moderation contacts
 - [ ] Open first public discussion
 - [ ] Publish first monthly top proposals list
-- [ ] Create process for promoting proposals to projects
+- [x] Create process for promoting proposals to projects
 
 ## Naming setup
 
 - [x] Add naming process
-- [ ] Generate candidate names
+- [x] Generate candidate names
 - [ ] Check domain availability
 - [ ] Check GitHub/community handle availability
 - [ ] Check trademark risk
@@ -56,4 +60,4 @@
 - [ ] Post introduction on Reddit/Hermes community
 - [ ] Ask for founding contributors, not passive users
 - [ ] Invite the first 10 proposals
-- [ ] Run the first scoring review
+- [x] Run the first scoring review (all 10 proposals scored 2026-06-21)
